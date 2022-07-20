@@ -24,6 +24,10 @@ public class Player {
 		vis[1] = new Visualizacao(g[0], v[1]); // assistiu aula 2
 		vis[0].avaliar(87.0f);
 		System.out.println(vis[1].toString());
+		
+		vis[2] = new Visualizacao(g[1], v[2]);
+		vis[2].avaliar(23.4f);
+		System.out.println(vis[2].toString());
 	}
 	
 	
